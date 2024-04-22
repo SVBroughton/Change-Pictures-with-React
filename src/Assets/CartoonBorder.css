@@ -1,0 +1,11 @@
+h1 {
+  color: navy;
+}
+
+body {
+  margin: 96px;
+  padding: 25px;
+  border: solid black;
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+}

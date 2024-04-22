@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    padding-top: 15px;
+	padding-bottom: 25px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #FC6C85;
+}
+
+body {
+    margin: 96px;
+    padding: 25px;
+    background-image: url("Pink Simple Phone Wallpaper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+}
+  
+.top {
+    display: flex;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.lower_text {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	font-family: "Apple Chancery", cursive;
+	font-size: 26px;
+}
+
+.upperText{
+	font-family: "Apple Chancery", cursive;
+	font-size: 26px;
+	max-width: 700px;
+	padding-left: 50px;
+}
+
+.profile_pic {
+	padding-left: 75px;
+	padding-bottom: 75px;
+}
+
+.lower_image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#styleButton{
+	display: block;
+	margin: auto;
+	border-radius: 12px;
+	background-color: #E8C2B5;
+	border: none;
+	color: white;
+	width: 100x;
+	font-size: 23px;
+	font-family: "Apple Chancery", cursive;
+}
+
