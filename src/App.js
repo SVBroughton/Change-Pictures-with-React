@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Story from './Story'
-import Button from './Story'
+
 
 function App() {
   return (

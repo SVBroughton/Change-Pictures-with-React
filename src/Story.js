@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import './Stylesheet.css';
-import courage from './Assets/Courage Waving.jpg'; 
 import pinkAbstract from './Assets/Pink Aesthetic Abstract Linktree Background.png';
 import waterColor from './Assets/Floral Watercolor Leaves Linktree Background.png';
 import neon from './Assets/Neon Linktree Background.png';
@@ -20,9 +19,7 @@ function Story(){
 			setPic(pinkAbstract);
 		}
 	}
-	function clickHappened(){
-		alert('Click happened');
-	}
+	
 
 	return <div>
 			<button onClick={changeImage} className='styleButton'> Click here to change the design! </button>
