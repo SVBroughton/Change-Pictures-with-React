@@ -11,11 +11,11 @@ function Story(){
 
   
 	function changeImage(){
-		if(pic==pinkAbstract){
+		if(pic===pinkAbstract){
 			setPic(waterColor);
-		}else if(pic==waterColor){
+		}else if(pic===waterColor){
 			setPic(neon);
-		}else if(pic==neon){
+		}else if(pic===neon){
 			setPic(pinkAbstract);
 		}
 	}
