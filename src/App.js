@@ -6,7 +6,6 @@ import Button from './Story'
 function App() {
   return (
     <div className="App">
-      
 	  <Story/>
     </div>
   );

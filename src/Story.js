@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import './Stylesheet.css';
 import courage from './Assets/Courage Waving.jpg'; 
 import pinkAbstract from './Assets/Pink Aesthetic Abstract Linktree Background.png';
 import waterColor from './Assets/Floral Watercolor Leaves Linktree Background.png';
@@ -24,10 +25,9 @@ function Story(){
 	}
 
 	return <div>
-			<button onClick={changeImage}> Click here to change the web page design! </button>
-			<img src={pic} alt="Abstract"/> 
-
-			</div>
+			<button onClick={changeImage} className='styleButton'> Click here to change the design! </button>
+			<img src={pic} className='currentImage' alt="Abstract"/> 
+		   </div>
 }
 
 export default Story
